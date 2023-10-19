@@ -1,0 +1,21 @@
+h3
+{
+    font-size:25px  !important;
+
+}
+
+.btn-success:hover
+{
+    background-color: rgb(56, 216, 123);
+}
+
+canvas{
+    animation-name:example;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example{
+    from {box-shadow:9px 9px 100px rgb(10, 243, 2);}
+    to {box-shadow:9px 99px 100px rgb(245, 79, 2);}
+}
